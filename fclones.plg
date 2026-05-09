@@ -2,7 +2,7 @@
 <!DOCTYPE PLUGIN [
   <!ENTITY name      "fclones">
   <!ENTITY author    "fejich">
-  <!ENTITY version   "2025.01.08">
+  <!ENTITY version   "2026.05.09">
   <!ENTITY gitURL    "https://github.com/&author;/unraid-&name;">
   <!ENTITY pluginURL "https://raw.githubusercontent.com/&author;/unraid-&name;/master/&name;.plg">
   <!ENTITY plugin    "/boot/config/plugins/&name;">
@@ -13,6 +13,9 @@
 
 <CHANGES>
 
+###2026.05.09
+- update fclones v0.35.0
+
 ###2025.01.08
 - Add icon
 
@@ -22,7 +25,7 @@
 </CHANGES>
 
 <FILE Name="/boot/config/plugins/&name;/&name;-&version;.tgz" Run="installpkg">
-<URL>https://github.com/pkolaczk/fclones/releases/download/v0.34.0/fclones-0.34.0-linux-glibc-x86_64.tar.gz</URL>
+<URL>https://github.com/pkolaczk/fclones/releases/download/v0.35.0/fclones-0.35.0-linux-glibc-x86_64.tar.gz</URL>
 </FILE>
 
 <FILE Name="/boot/config/plugins/&name;/icon.png">
